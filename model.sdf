@@ -50,10 +50,29 @@
 		  </sphere>
 		</geometry>
 		</visual>
+
+		<visual name='stand_visual'>
+		<pose>-0.21 0 0.3 0 0 0</pose>
+		<geometry>
+			<box>
+				<size>.025 .05 1.0</size>
+			</box>
+		</geometry>
+		</visual>
+
+		<collision name='stand_collision'>
+		<pose>-0.21 0 0.3 0 0 0</pose>
+		<geometry>
+			<box>
+				<size>.025 .05 1.0</size>
+			</box>
+		</geometry>
+		</collision>
+
 	</link>
 	<!-- Left Wheel Parameters -->
 	<link name="left_wheel">
-	<pose>0.1 0.17 0.1 0 1.5707 1.5707</pose>
+	<pose>0.05 0.17 0.1 0 1.5707 1.5707</pose>
 	<collision name="collision">
 	  <geometry>
 	    <cylinder>
@@ -73,7 +92,7 @@
 	</link>
 	<!-- Right Wheel Parameters -->
 	<link name="right_wheel">
-	<pose>0.1 -0.17 0.1 0 1.5707 1.5707</pose>
+	<pose>0.05 -0.17 0.1 0 1.5707 1.5707</pose>
 	<collision name="collision">
 	  <geometry>
 	    <cylinder>
