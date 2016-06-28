@@ -8,5 +8,5 @@
 			<arg name="init_pose" value="-x -1.0 -y -1.0 -z 0"/>
 		</include>
 	</group>
-	<node pkg="rhy_basic" type="rhyTest" name="rhyTest" respawn="false" />
+	<!-- <node pkg="rhy_basic" type="rhyTest" name="rhyTest" respawn="false" /> -->
 </launch>
