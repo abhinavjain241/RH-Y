@@ -47,6 +47,7 @@ int main(int argc, char **argv) {
 	    cmd_vel.angular.x = 0;
 	    cmd_vel.angular.y = 0;
 	    cmd_vel.angular.z = 0;
+	    controlChar = 's';
 	    break;
 	    case 'g':
 	    cmd_vel.linear.x = -1;
@@ -55,6 +56,7 @@ int main(int argc, char **argv) {
 	    cmd_vel.angular.x = 0;
 	    cmd_vel.angular.y = 0;
 	    cmd_vel.angular.z = 0;
+	    controlChar = 's';
 	    break;
 	    case 'f':
 	    cmd_vel.linear.x = 0;
@@ -63,6 +65,7 @@ int main(int argc, char **argv) {
 	    cmd_vel.angular.x = 0;
 	    cmd_vel.angular.y = 0;
 	    cmd_vel.angular.z = -1;
+	    controlChar = 's';
 	    break;
 	    case 'h':
 	    cmd_vel.linear.x = 0;
@@ -71,6 +74,7 @@ int main(int argc, char **argv) {
 	    cmd_vel.angular.x = 0;
 	    cmd_vel.angular.y = 0;
 	    cmd_vel.angular.z = 1;
+	    controlChar = 's';
 	    break;
 	    case 's':
 	    cmd_vel.linear.x = 0;
