@@ -5,4 +5,4 @@ The **'master'** branch of this particular repository contains the .sdf and .con
 
 **Screenshot** (v0.0.1):
 
-*To be added soon.*
+![lateral](screenshots/default_gzclient_camera(1)-2016-07-06T16_45_33.548388.jpg)
