@@ -131,8 +131,8 @@
     <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
       <alwaysOn>true</alwaysOn>
       <updateRate>10</updateRate>
-      <leftJoint>left_wheel</leftJoint>
-      <rightJoint>right_wheel</rightJoint>
+      <leftJoint>left_wheel_hinge</leftJoint>
+      <rightJoint>right_wheel_hinge</rightJoint>
       <wheelSeparation>0.34</wheelSeparation>
       <wheelDiameter>0.2</wheelDiameter>
       <torque>20</torque>
